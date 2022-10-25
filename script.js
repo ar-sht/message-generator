@@ -1,10 +1,11 @@
-const greetings = ['Hello', 'Hi there', 'Wassup', 'Hey', 'Greetings', 'With grace, you are welcomed']
+const greetings = ['Hello', 'Hi there', 'Wassup', 'Hey', 'Greetings', 'With grace you are welcomed']
 const pleasantries = ["How ya doin'", "You feeling ok", "Are you a little stressed"]
 const results = ['fine', 'crap', 'good-ish', 'well', 'very well', 'so bad that your face literally explodes',  'just ok']
 const signOffs = ["I'll always love you", "you've been a massive disappointment", "I think you're pretty dumb", "you won't be sleeping at home without an A", "you'll do great"]
 
 const nameField = document.getElementById('name')
 const form = document.querySelector('form')
+const submitButton = document.querySelector('button')
 const displayPane = document.getElementById('result')
 console.log(displayPane)
 
@@ -32,4 +33,4 @@ const displayMessage = () => {
     }
 }
 
-form.onsubmit = displayMessage
+submitButton.onclick = displayMessage

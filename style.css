@@ -128,4 +128,6 @@ h3#result-header {
 p.output-line {
     color: #3a2e1d;
     margin-left: 5%;
+    line-height: 1.25;
+    font-size: 1.5rem;
 }
